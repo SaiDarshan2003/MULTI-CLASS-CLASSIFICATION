@@ -1,17 +1,13 @@
 ### EX NO: 03
 ### DATE : 11/04/2022
-
 # <p align ='center'> MULTI-CLASS-CLASSIFICATION </p>
 ## Aim:
 To write a python program to implement the multi class classification algorithm .
-
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner / Google Colab
-
 ## Related Theoritical Concept:
 In multi-class classification, the neural network has the same number of output nodes as the number of classes. Each output node belongs to some class and outputs a score for that class. Class is a category for example Predicting animal class from an animal image is an example of multi-class classification, where each animal can belong to only one category.
-
 ## Algorithm
 ### Step 1:
 Import the necessary modules
@@ -21,15 +17,10 @@ Frame the dataset using make_blobs
 Assign the counter value using the Counter function
 ### Step 4:
 Using a for loop, plot the points using scatter function
-
 ## Program:
 ```
-/*
-Program to implement the multi class classifier.
 Developed by: Sai Darshan G
 RegisterNumber: 212221240047
-*/
-# 03 MULTICLASS CLASSIFICATION
 from numpy import where
 from collections import Counter
 from sklearn.datasets import make_blobs
@@ -45,10 +36,8 @@ for label, _ in counter.items():
 	pyplot.scatter(X[row_ix, 0], X[row_ix, 1], label=str(label))
 pyplot.legend()
 pyplot.show()
-
 ```
 ## Output:
 ![multi class classification plot](1.jpg)
-
 ## Result:
 Thus the python program to implement the multi class classification was implemented successfully.
