@@ -38,6 +38,6 @@ pyplot.legend()
 pyplot.show()
 ```
 ## Output:
-![multi class classification plot](ml.jpg)
+![multi class classification plot](ml1.png)
 ## Result:
 Thus the python program to implement the multi class classification was implemented successfully.
